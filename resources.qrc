@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/ecores" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
