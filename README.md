@@ -1,32 +1,9 @@
-Plugin Builder Results
+### The EcoRes tool is strictly experimental and has not been thoroughly tested yet! ###
 
-Your plugin EcoRes was created in:
-    C:/Users/flori/Desktop\ecores
+EcoRes is a simple and yet experimental plugin. This tool provides a simple workflow to calculate leaf or ecosystem respiration from land surface temperature maps and thermal images. It is based on the temperature response model described in Heskel et al. 2016. Thermal maps from a wide range of sources including satellites, drones and handheld thermal cameras can be used as input. 
 
-Your QGIS plugin directory is located at:
-    C:/Users/flori/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
+We are planning to write a small technical paper to show how the plugin works using different data sets. Until then, please cite the plugin by: 
+Florian Ellsäßer, 2020,  EcoRes QGIS3 plugin, https://plugins.qgis.org/plugins/EcoRes/
 
-What's Next:
-
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
-
-  * Compile the resources file using pyrcc5
-
-  * Run the tests (``make test``)
-
-  * Test the plugin by enabling it in the QGIS plugin manager
-
-  * Customize it by editing the implementation file: ``ecores.py``
-
-  * Create your own custom icon, replacing the default icon.png
-
-  * Modify your user interface by opening EcoRes_dialog_base.ui in Qt Designer
-
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
-
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
-
-(C) 2011-2018 GeoApt LLC - geoapt.com
+Please also cite the paper on which this plugin is based:
+Heskel, Mary & O'Sullivan, Odhran & Reich, Peter & Tjoelker, Mark & Weerasinghe, Lasantha & Penillard, Aurore & Egerton, John & Creek, Danielle & Bloomfield, Keith & Xiang, Jen & Sinca, Felipe & Stangl, Zsofia & Martínez-de la Torre, Alberto & Griffin, Kevin & Huntingford, Chris & Hurry, Vaughan & Meir, Patrick & Turnbull, Matthew & Atkin, Owen. (2016). Convergence in the temperature response of leaf respiration across biomes and plant functional types. Proceedings of the National Academy of Sciences. 113. 201520282. 10.1073/pnas.1520282113. 
