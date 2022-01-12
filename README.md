@@ -2,6 +2,8 @@
 
 EcoRes is a simple and so far only experimental plugin. This tool provides a simple workflow to calculate leaf or ecosystem respiration from land surface temperature maps and thermal images. It is based on the temperature response model described in Heskel et al. 2016. Thermal maps from a wide range of sources including satellites, drones and handheld thermal cameras can be used as input. 
 
+I created a small tutorial for this plugin: https://ecothermographylab.com/ecores/
+
 We are planning to write a small technical paper to show how the plugin works using different data sets. Until then, please cite the plugin by: 
 Florian Ellsäßer, 2021,  EcoRes Ecosystem respiration Tool for QGIS3, https://plugins.qgis.org/plugins/EcoRes/
 
